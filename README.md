@@ -19,7 +19,7 @@ print(synced_list[1]) # outputs 2
 # Script Number 2
 
 from script_sync import *
-synced_list = SList("File1", "File2")
+synced_list = SList("File2", "File1") # parameters have to be in reverse order to script 1
 
 input("")
 print(synced_list) # outputs [3,2,3,4] assuming script1 has finished
